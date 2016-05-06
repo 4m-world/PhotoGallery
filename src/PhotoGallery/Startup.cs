@@ -48,7 +48,7 @@ namespace PhotoGallery
             services.AddEntityFramework()
                 .AddSqlServer()
                 .AddDbContext<PhotoGalleryContext>(options =>
-                    options.UseSqlServer(Configuration["Data:PhotoGalleryConnectionString"]));
+                    options.UseSqlServer(Configuration["Data:PhotoGalleryConnection"]));
 
             // Repositories
             services.AddScoped<IPhotoRepository, PhotoRepository>();

@@ -1,4 +1,5 @@
-﻿using System.Security.Principal;
+﻿using PhotoGallery.Entities;
+using System.Security.Principal;
 
 namespace PhotoGallery.Infrastructure.Core
 {
